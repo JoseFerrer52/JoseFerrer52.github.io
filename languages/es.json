@@ -13,7 +13,8 @@
         "name":"José Ferrer",
         "about":"Desarrollador We Back-End",
         "description":"Mi objetivo es crecer profesionalmente mientras aporto valor a un equipo dinámico y colaborativo. Estoy enfocado en diseñar soluciones web avanzadas, empleando métodos de programación eficientes y mantenibles.",
-        "viewCv":"Mirar mi CV"
+        "viewCv":"Mirar mi CV",
+        "changeCv":"./assets/cv-jose-es.pdf"
     },
     "skill":{
         "titleSkill":"Mis Habilidades"

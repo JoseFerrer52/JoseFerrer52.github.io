@@ -13,7 +13,8 @@
         "name":"José Ferrer",
         "about":"Back-End Web Developer",
         "description":"My goal is to grow professionally while contributing value to a dynamic and collaborative team. I am focused on designing advanced web solutions, employing efficient and maintainable programming methods.",
-        "viewCv":"View CV"
+        "viewCv":"View CV",
+        "changeCv":"./assets/cv-jose-en.pdf"
     },
     "skill":{
         "titleSkill":"My Skills"

@@ -20,12 +20,10 @@ const changeLanguage = async (language) => {
       } else if (value.includes("placeholder")) {
         textToChange.attributes.getNamedItem("placeholder").value =
           texts[section][value];
-      } else if(value.includes("href")){
+      } else if (value.includes("changeCv")) {
         textToChange.attributes.getNamedItem("href").value =
           texts[section][value];
-      }
-      
-       else {
+      } else {
         textToChange.innerHTML = texts[section][value];
       }
     }
@@ -41,6 +39,9 @@ const changeLanguage = async (language) => {
           texts[section][value];
       } else if (value.includes("placeholder")) {
         textToChange.attributes.getNamedItem("placeholder").value =
+          texts[section][value];
+      } else if (value.includes("changeCv")) {
+        textToChange.attributes.getNamedItem("href").value =
           texts[section][value];
       } else {
         textToChange.innerHTML = texts[section][value];
