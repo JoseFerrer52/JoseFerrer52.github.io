@@ -1,0 +1,65 @@
+{
+    "header":{
+        "titlSpanish":"spanish",
+        "titlEnglish":"English",
+        "navAbout":"Acerca",
+        "navSkill":"Habilidades",
+        "navStudy":"Estudios",
+        "navPortfolio":"Portafolio",
+        "navSocialMedia":"Redes",
+        "navContact":"Contacto"
+    },
+    "about":{
+        "name":"José Ferrer",
+        "about":"Desarrollador We Back-End",
+        "description":"Mi objetivo es crecer profesionalmente mientras aporto valor a un equipo dinámico y colaborativo. Estoy enfocado en diseñar soluciones web avanzadas, empleando métodos de programación eficientes y mantenibles.",
+        "viewCv":"Mirar mi CV"
+    },
+    "skill":{
+        "titleSkill":"Mis Habilidades"
+    },
+    "Study":{
+        "titleStudy":"Estudios",
+        "certificateTooltip":"Ver certificado.",
+        "subTlitleCourse":"Udemy",
+            "courseTitle":"Universidad JavaScript",
+            "courseDescription":"Adquiere y domina los fundamentos de la programación, mientras aprendes a organizar y estructurar tu código siguiendo las mejores prácticas del lenguaje JavaScript.",
+            "courseTitleNode":"Aprende los fundamentos de la programación en Node.js",
+            "courseDescriptionNode":"Aprende y comprende la programación en Node.js desde cero con ejemplos prácticos y ejercicios",
+            "courseTitleSql":"SQL: Creación de Bases de Datos",
+            "courseDescriptionSql":"Domina el diseño, creación y gestión de bases de datos SQL de manera eficiente utilizando el sistema de gestión de bases de datos MySQL",
+            "courseTitleHtml":"HTML5 y CSS3 de CERO a EXPERTO",
+            "courseDescriptionHtml":"Aprende HTML y CSS sin ningún conocimiento previo para el desarrollo modificación, visualización de elementos web"
+
+    },
+    "portfolio":{
+        "titlePortfolio":"Mis Proyectos",
+            "firstProjectDescription":"LifePost es una aplicación diseñada para brindar inspiración y motivación, así como un santuario donde las personas pueden expresarse libremente.",
+            "secondProjectDescriptionTwo":"Es una aplicación MVC cuya función es optimizar y comprimir imágenes, utilizando el entorno de ejecución de JavaScript Node js y Express-js."
+    },
+    "modal":{
+        "titleDate":"FECHA:",
+        "titleType":"TIPO:",
+        "titleLink":"ENLACE:",
+        "firstModalDecription":"Un espacio donde todos tienen la oportunidad de compartir sus historias con el mundo.",
+        "firstDate":"Feb. 2024",
+        "secondModalDecription":"Optimiza tus imágenes para tus trabajos y sitios web.",
+        "secondDate":"Ene. 2024"
+    },
+    "socialMedia":{
+        "titleSocialMedia":"Redes"
+    },
+    "contact":{
+        "titleContact":"Contactame",
+        "placeholderInputName":"Ingresa tu nombre *",
+        "placeholderInputEmail":"Ingresa tu correo *",
+        "placeholderInputSubject":"Asunto *",
+        "placeholderInputComment":"Déjame tus comentarios *",
+        "sendButton":"ENVIAR MENSAJE"
+    },
+    "footer":{
+        "footerDescription":"Sitio diseñado por",
+        "footerDescriptionEnd": "© Todos los derechos reservados."
+    }
+
+}
