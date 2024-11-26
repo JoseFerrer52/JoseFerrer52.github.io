@@ -26,12 +26,16 @@
             "courseTitle":"Universidad JavaScript",
             "courseDescription":"Adquiere y domina los fundamentos de la programación, mientras aprendes a organizar y estructurar tu código siguiendo las mejores prácticas del lenguaje JavaScript.",
             "courseTitleNode":"Aprende los fundamentos de la programación en Node.js",
-            "courseDescriptionNode":"Aprende y comprende la programación en Node.js desde cero con ejemplos prácticos y ejercicios",
+            "courseDescriptionNode":"Aprende y comprende la programación en Node.js desde cero con ejemplos prácticos y ejercicios.",
             "courseTitleSql":"SQL: Creación de Bases de Datos",
-            "courseDescriptionSql":"Domina el diseño, creación y gestión de bases de datos SQL de manera eficiente utilizando el sistema de gestión de bases de datos MySQL",
+            "courseDescriptionSql":"Domina el diseño, creación y gestión de bases de datos SQL de manera eficiente utilizando el sistema de gestión de bases de datos MySQL.",
             "courseTitleHtml":"HTML5 y CSS3 de CERO a EXPERTO",
-            "courseDescriptionHtml":"Aprende HTML y CSS sin ningún conocimiento previo para el desarrollo modificación, visualización de elementos web"
-
+            "courseDescriptionHtml":"Aprende HTML y CSS sin ningún conocimiento previo para el desarrollo modificación, visualización de elementos web.",
+            "courseTitleMongo": "Curso de Base de Datos MongoDB y NoSQL",
+            "courseDescriptionMongo": "Aprende NoSQL con MongoDB desde 0, sin conocimientos previos y realiza Consultas, relaciones, schemas de datos y ABM.",
+            "courseTitlePostgre": "Curso de Base de Datos PostgreSQL Server",
+            "courseDescriptionPostgre": "Domina el diseño, creación y gestión de bases de datos SQL de manera eficiente utilizando el sistema de gestión de bases de datos PostgreSQL."
+            
     },
     "portfolio":{
         "titlePortfolio":"Mis Proyectos",

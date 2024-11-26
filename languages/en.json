@@ -26,12 +26,15 @@
             "courseTitle":"JavaScript University",
             "courseDescription":"Acquire and master the fundamentals of programming, while learning to organize and structure your code following the best practices of the JavaScript language.",
             "courseTitleNode":"Learn Fundamentals Of Node.js Programming",
-            "courseDescriptionNode":"Learn and understand Node.js programming from scratch with practical examples and exercises",
+            "courseDescriptionNode":"Learn and understand Node.js programming from scratch with practical examples and exercises.",
             "courseTitleSql":"SQL: Creating Databases",
             "courseDescriptionSql":"Master the design, creation, and management of SQL databases efficiently using the MySQL database management system.",
             "courseTitleHtml":"HTML5 and CSS3 from ZERO to EXPERT",
-            "courseDescriptionHtml":"Learn HTML and CSS without any prior knowledge for the development, modification, and visualization of web elements."
-
+            "courseDescriptionHtml":"Learn HTML and CSS without any prior knowledge for the development, modification, and visualization of web elements.",
+            "courseTitleMongo": "MongoDB and NoSQL Database Course",
+            "courseDescriptionMongo": "Learn NoSQL with MongoDB from scratch, without prior knowledge, and perform Queries, relationships, data schemas, and CRUD.",
+            "courseTitlePostgre": "PostgreSQL Server Database Course",
+            "courseDescriptionPostgre": "Master the design, creation, and management of SQL databases efficiently using the PostgreSQL database management system."
 
     },
     "portfolio":{
