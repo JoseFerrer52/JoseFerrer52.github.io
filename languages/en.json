@@ -41,7 +41,8 @@
         "titlePortfolio":"My Projects",
             "firstProjectDescription":"LifePost is an application designed to provide inspiration and motivation, as well as a sanctuary where people can freely express themselves.",
             "secondProjectDescriptionTwo":"It is an MVC application designed to optimize and compress images, utilizing the JavaScript runtime environment Node.js and Express.js.",
-            "thirdProjectDescription":"listuser-api is a mini API created for a technical test. Provides user management through functionalities such as user creation, listing, updating, and deletion."
+            "thirdProjectDescription":"listuser-api is a mini API created for a technical test. Provides user management through functionalities such as user creation, listing, updating, and deletion.",
+            "forthProjectDescription":"listuser is an application created to display the views of the listuser-api. It provides user management such as creating, listing, updating and deleting users."
 
     },
     "modal":{
@@ -53,7 +54,8 @@
         "secondModalDecription":"Optimize your images for your projects and websites.",
         "secondDate":"Jan. 2024",
         "thirdModalDecription":"listuser provides an efficient and easy way to manage and list users.",
-        "thirdDate":"Dec. 2024"
+        "thirdDate":"Dec. 2024",
+        "forthModalDecription": "The main objective of Listuser is to demonstrate an efficient and simple way of how the listuser-api works in real-time"
     },
     "socialMedia":{
         "titleSocialMedia":"Social Media"
