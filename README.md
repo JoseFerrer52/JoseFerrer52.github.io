@@ -1,9 +1,8 @@
-# Taller de Maquetación
+# My Portfolio
 
-Repositorio de proyectos del taller de maquetación de @jonmircha en YouTube.
+Repository of all my developed projects
 
-## Proyectos
 
-| Proyecto                             |                                                          |                                                                                      |
+| Proyect                             |                                                          |                                                                                      |
 | ------------------------------------ | -------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| _Landing Page_ de tipo Portafolio-CV | [Ver Video](https://www.youtube.com/watch?v=ErtR07GLq54) | [Ver Proyecto](https://jonmircha.github.io/youtube-taller-maquetacion/portafolio-cv) |
+| _Landing Page_ of type Portfolio-CV | [wiew Portfolio](https://joseferrer52.github.io) |
