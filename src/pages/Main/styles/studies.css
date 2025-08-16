@@ -1,0 +1,218 @@
+@import "tailwindcss";
+
+.study-card-left-item::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  right: 0%;
+  top: 40%;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #ffba00;
+}
+
+.study-card-left-item::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -30px;
+  top: 50%;
+  background-color: #0A192F;
+  border: #00B4D8 solid 3px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+.study-card-right-item::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  right: 0%;
+  top: 40%;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #ffba00;
+}
+
+.study-card-right-item::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -30px;
+  top: 50%;
+  background-color: #0A192F;
+  border: #00B4D8 solid 3px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+
+
+
+.study-card-left-one{
+right: 20px;
+top:5%;
+padding-right: .5rem;
+}
+
+.study-card-left-two{
+right: 20px;
+top:41%;
+padding-right: .5rem;
+}
+
+.study-card-left-three{
+right: 20px;
+top:79%;
+padding-right: .5rem;
+}
+
+.study-card-right-one{
+right: 20px;
+top: 23%;
+padding-right: .5rem;
+}
+
+.study-card-right-two{
+right: 20px;
+top: 60%;
+padding-right: .5rem;
+}
+
+.study-card-border-right{
+ @apply border-r-amber-400 border-r-6
+}
+
+.study-card-border-left{
+  @apply border-r-amber-400 border-r-6
+  
+}
+
+.study-card-radius-right{
+ 
+border-radius: 16px 0px 0px  16px ;
+ 
+}
+
+.study-card-radius-left{
+
+  border-radius: 16px 0px 0px 16px;
+}
+
+
+
+.study-card{
+ @apply absolute w-[300px] min-[768px]:w-[550px] min-[1350px]:w-[630px]  h-[100px]  flex items-start
+}
+
+.study-card-content{
+ @apply  bg-[#111729] p-2 xl:p-6 shadow-lg transition-all duration-300
+}
+
+.study-card-content-title{
+  @apply text-[16px] xl:text-2xl font-semibold text-[#f3f4f6] mb-1
+}
+
+.study-card-content-location{
+ @apply text-sm xl:text-lg text-[#6B7280] mb-2
+}
+
+.study-card-content-time{
+  @apply text-sm font-medium text-[#00B4D8] mb-4
+}
+
+.study-card-content-description{
+  @apply text-[#6B7280] space-y-2 text-xs lg:text-[16px]
+}
+
+@media (width> 1280px) {
+
+.study-card-left-item::before {
+  left:100%;
+  top: 40%;
+  border-right: none;
+  border-left: 10px solid #ffba00;
+}
+
+.study-card-left-item::after {
+  left: auto;
+  right: -37px;
+}
+
+.study-card-left-one{
+  left: auto;
+right:28px ;
+padding-right: 0;
+padding-left: .5rem;
+}
+
+.study-card-left-two{
+  left: auto;
+right:28px ;
+padding-right: 0;
+padding-left: .5rem;
+}
+
+.study-card-left-three{
+  left: auto;
+right:28px ;
+padding-right: 0;
+padding-left: .5rem;
+}
+
+.study-card-right-one{
+left: 30px;
+
+}
+
+
+.study-card-right-two{
+left: 30px;
+padding-right: 0;
+padding-left: 0;
+}
+
+
+
+
+
+
+
+
+.study-card-border-right{
+ @apply border-r-amber-400 border-l-0 border-r-6
+}
+
+.study-card-border-left{
+  @apply border-l-amber-400 border-r-0 border-l-6
+  
+}
+
+.study-card-radius-right{
+ 
+  border-radius: 16px 0 0 16px;
+
+}
+
+.study-card-radius-left{
+ 
+  border-radius: 0px 16px 16px 0px;
+
+}
+
+.study-card-right-item::before {
+  right: 100%;
+  top: 40%;
+  border-left: 0;
+  border-right: 10px solid #ffba00;
+}
+
+.study-card-right-item::after {
+  right: auto;
+  left: -38px;
+  top: 50%;
+}
+}

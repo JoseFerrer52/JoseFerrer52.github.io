@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background-color: #0a192f;
+  --color-background-color-2: #2cb6f3;
+  --color-black-custom: #333;
+  --color-blue-custom: #111729;
+  --color-gray-custon: #6b7280;
+  --color-assest-custon: #00b4d8;
+  --color-assest-white: #f3f4f6;
+}
+
+.color {
+  /* Bakcground */
+  color: #0a192f;
+  color: #1e3a8a;
+  color: #111729;
+
+  /* Text */
+  color: #6b7280;
+  color: #4b5563;
+
+  /* background */
+  color: #f3f4f6;
+
+  /* buttond and assets */
+  color: #00b4d8;
+  color: #3b82f6;
+}
+
+.t-shadow{
+    text-shadow:0px 0px 1px #000
+}
+.contain{
+  @apply w-[90%] mt-4 mx-auto pt-4 md:w-auto md:mx-20 lg:mt-20 lg:mx-40
+
+}
+
+/* @media (width> 768px) {
+
+    .contain {
+        width: initial;
+        margin: 0 5rem;
+    }
+  }
+
+
+  @media (width> 1024px) {
+
+    .contain {
+        width: initial;
+        margin: 0 10rem;
+        padding-top: 5rem;
+    }
+  } */
+
+
+
+
+
+
+
+
+
