@@ -1,0 +1,76 @@
+{
+    "header":{
+        "titlSpanish":"spanish",
+        "titlEnglish":"English",
+        "navAbout":"About",
+        "navSkill":"Skills",
+        "navStudy":"Studies",
+        "navPortfolio":"Portfolio",
+        "navSocialMedia":"Social Media",
+        "navContact":"Contact"
+    },
+    "about":{
+        "name":"José Ferrer",
+        "about":"Back-End Web Developer",
+        "description":"My goal is to grow professionally while contributing value to a dynamic and collaborative team. I am focused on designing advanced web solutions, employing efficient and maintainable programming methods.",
+        "viewCv":"View CV",
+        "changeCv":"./assets/cv-jose-en.pdf"
+    },
+    "skill":{
+        "titleSkill":"My Skills"
+    },
+    "Study":{
+        "titleStudy":"Studies",
+        "certificateTooltip":"View certificate",
+        "subTlitleCourse":"Udemy",
+            "courseTitle":"JavaScript University",
+            "courseDescription":"Acquire and master the fundamentals of programming, while learning to organize and structure your code following the best practices of the JavaScript language.",
+            "courseTitleNode":"Learn Fundamentals Of Node.js Programming",
+            "courseDescriptionNode":"Learn and understand Node.js programming from scratch with practical examples and exercises.",
+            "courseTitleSql":"SQL: Creating Databases",
+            "courseDescriptionSql":"Master the design, creation, and management of SQL databases efficiently using the MySQL database management system.",
+            "courseTitleHtml":"HTML5 and CSS3 from ZERO to EXPERT",
+            "courseDescriptionHtml":"Learn HTML and CSS without any prior knowledge for the development, modification, and visualization of web elements.",
+            "courseTitleMongo": "MongoDB and NoSQL Database Course",
+            "courseDescriptionMongo": "Learn NoSQL with MongoDB from scratch, without prior knowledge, and perform Queries, relationships, data schemas, and CRUD.",
+            "courseTitlePostgre": "PostgreSQL Server Database Course",
+            "courseDescriptionPostgre": "Master the design, creation, and management of SQL databases efficiently using the PostgreSQL database management system."
+
+    },
+    "portfolio":{
+        "titlePortfolio":"My Projects",
+            "firstProjectDescription":"LifePost is an application designed to provide inspiration and motivation, as well as a sanctuary where people can freely express themselves.",
+            "secondProjectDescriptionTwo":"It is an MVC application designed to optimize and compress images, utilizing the JavaScript runtime environment Node.js and Express.js.",
+            "thirdProjectDescription":"listuser-api is a mini API created for a technical test. Provides user management through functionalities such as user creation, listing, updating, and deletion.",
+            "forthProjectDescription":"listuser is an application created to display the views of the listuser-api. It provides user management such as creating, listing, updating and deleting users."
+
+    },
+    "modal":{
+        "titleDate":"DATE:",
+        "titleType":"TYPE:",
+        "titleLink":"LINK:",
+        "firstModalDecription":"A space where everyone has the opportunity to share their stories with the world.",
+        "firstDate":"Feb. 2024",
+        "secondModalDecription":"Optimize your images for your projects and websites.",
+        "secondDate":"Jan. 2024",
+        "thirdModalDecription":"listuser provides an efficient and easy way to manage and list users.",
+        "thirdDate":"Dec. 2024",
+        "forthModalDecription": "The main objective of Listuser is to demonstrate an efficient and simple way of how the listuser-api works in real-time"
+    },
+    "socialMedia":{
+        "titleSocialMedia":"Social Media"
+    },
+    "contact":{
+        "titleContact":"Contact me",
+        "placeholderInputName":"Enter your name *",
+        "placeholderInputEmail":"Enter your email *",
+        "placeholderInputSubject":"subject *",
+        "placeholderInputComment":"Write your comments to me *",
+        "sendButton":"SEND MESSAGE"
+    },
+    "footer":{
+        "footerDescription":"Site designed by",
+        "footerDescriptionEnd": "© All rights reserved."
+    }
+
+}
