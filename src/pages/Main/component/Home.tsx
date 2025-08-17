@@ -1,7 +1,8 @@
 
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { useTranslation } from 'react-i18next';
-import cv from "../../../assets/cv-jose-en.pdf"
+import cv_en from "../../../../public/cv/cv-jose-en.pdf";
+import cv_es from "../../../../public/cv/cv-jose-es.pdf";
 import Kill_la_Kill from "/user.jpg";
 import "../../../App.css";
 import { useEffect } from 'react';
@@ -10,7 +11,8 @@ import { useEffect } from 'react';
 function Home() {
 
    const { t } = useTranslation();
-   
+   const cv = localStorage.getItem("i18nextLng") === "en" ? cv_en : cv_es;
+
 
    useEffect(() => {
      const storedlng = localStorage.getItem("language");
