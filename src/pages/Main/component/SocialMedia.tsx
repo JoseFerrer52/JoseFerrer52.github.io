@@ -6,8 +6,8 @@ import { SiGmail } from "react-icons/si";
 
 function SocialMedia() {
   return (
-    <section id="socialMedia" className='contain w-full h-full max-w-1300px'>
-        <div className='flex justify-between '>
+    <section id="socialMedia" className='px-4 mt-8 lg:mt-20 w-full h-full max-w-[1300px] flex justify-self-center'>
+        <div className='flex justify-between w-full '>
             <a href="https://www.linkedin.com/in/jose-fe/" target="_blank" rel="noopener noreferrer" className='w-25 md:w-35 h-11 flex items-center justify-evenly text-gray-400  border-2 border-gray-500 rounded-[30px] hover:border-gray-300 hover:text-gray-300 hover:scale-90 transition-all duration-500 ease-in-out'>
             <FaLinkedinIn  className="w-6 h-6 "/>
             <span className="text-lg"><i>Linkedin</i> </span>

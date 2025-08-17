@@ -80,7 +80,7 @@ function Layout() {
           <img className="object-cover h-10 w-10" src={logo} alt="Logo" />
         </div>
 
-        {/* 👇 NUEVO ICONO DE HAMBURGUESA ANIMADO */}
+        {/* NUEVO ICONO DE HAMBURGUESA*/}
         <div className="lg:hidden z-[1000]">
             <button
                 onClick={toggleMenu}
@@ -110,9 +110,9 @@ function Layout() {
 
         {/* Botones de idioma */}
         <div className="flex items-center gap-2">
-           <button className={`cursor-pointer transition-colors duration-300 text-lg ${i18n.language === 'en' ? 'font-bold text-[#00B4D8]' : 'text-gray-300 hover:text-white'}`} onClick={() => changeLanguage('en')}>En</button>
+           <button className={`cursor-pointer transition-colors duration-300 text-lg ${i18n.language === 'en-US' ? 'font-bold text-[#00B4D8]' : 'text-gray-300 hover:text-white'}`} onClick={() => changeLanguage('en-US')}>En</button>
            <span>/</span>
-           <button className={`cursor-pointer transition-colors duration-300 text-lg ${i18n.language === 'es' ? 'font-bold text-[#00B4D8]' : 'text-gray-300 hover:text-white'}`} onClick={() => changeLanguage('es')}>Es</button>
+           <button className={`cursor-pointer transition-colors duration-300 text-lg ${i18n.language === 'es-ES' ? 'font-bold text-[#00B4D8]' : 'text-gray-300 hover:text-white'}`} onClick={() => changeLanguage('es-ES')}>Es</button>
         </div>
       </div>
 

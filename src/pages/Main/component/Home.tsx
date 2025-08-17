@@ -5,26 +5,12 @@ import cv_en from "../../../../public/cv/cv-jose-en.pdf";
 import cv_es from "../../../../public/cv/cv-jose-es.pdf";
 import Kill_la_Kill from "/user.jpg";
 import "../../../App.css";
-import { useEffect } from 'react';
 
 
 function Home() {
 
    const { t } = useTranslation();
-   const cv = localStorage.getItem("i18nextLng") === "en" ? cv_en : cv_es;
-
-
-   useEffect(() => {
-     const storedlng = localStorage.getItem("language");
-    if (!storedlng) {
-      console.log("storedlng",storedlng);
-      console.log("en");
-      
-    }else{
-      console.log("storedlng",storedlng);
-      console.log("es");
-    }
-  }, []);
+   const cv = localStorage.getItem("i18nextLng") === "es-ES" ? cv_es : cv_en;
    
    
   const [text] = useTypewriter({

@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 function About() {
   const { t } = useTranslation();
   return (
-    <article id="about" className=" w-full contain max-w-[1600px] mx-auto">
+    <section id="about" className=" w-full contain max-w-[1400px] flex flex-col justify-self-center">
       <div className="text-center pb-8 lg:pb-16">
         <h2 className="text-4xl font-bold text-white t-shadow ">
           {t("about.title")}
@@ -64,7 +64,7 @@ function About() {
           </div>
         </div>
       </div>
-    </article>
+    </section>
   );
 }
 

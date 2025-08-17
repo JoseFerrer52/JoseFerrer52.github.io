@@ -10,24 +10,6 @@
   --color-assest-white: #f3f4f6;
 }
 
-.color {
-  /* Bakcground */
-  color: #0a192f;
-  color: #1e3a8a;
-  color: #111729;
-
-  /* Text */
-  color: #6b7280;
-  color: #4b5563;
-
-  /* background */
-  color: #f3f4f6;
-
-  /* buttond and assets */
-  color: #00b4d8;
-  color: #3b82f6;
-}
-
 .t-shadow{
     text-shadow:0px 0px 1px #000
 }
@@ -36,23 +18,6 @@
 
 }
 
-/* @media (width> 768px) {
-
-    .contain {
-        width: initial;
-        margin: 0 5rem;
-    }
-  }
-
-
-  @media (width> 1024px) {
-
-    .contain {
-        width: initial;
-        margin: 0 10rem;
-        padding-top: 5rem;
-    }
-  } */
 
 
 
