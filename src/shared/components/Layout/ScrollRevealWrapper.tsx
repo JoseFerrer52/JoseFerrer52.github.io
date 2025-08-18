@@ -16,7 +16,7 @@ const ScrollRevealWrapper: React.FC<Props> = ({ children, delay = 300 }) => {
   return (
     <div
       ref={ref}
-      className={`transition-all duration-700 ease-out ${
+      className={`transition-all duration-700 ease-out flex justify-center ${
         inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
       }`}
       style={{
