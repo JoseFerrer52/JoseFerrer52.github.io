@@ -3,7 +3,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { useTranslation } from 'react-i18next';
 import cv_en from "../../../../public/cv/cv-jose-en.pdf";
 import cv_es from "../../../../public/cv/cv-jose-es.pdf";
-import Kill_la_Kill from "/user.jpg";
+import profile_image from "../../../../public/jonmircha.jpg"
 import "../../../App.css";
 
 
@@ -26,7 +26,7 @@ function Home() {
       <div className="w-30 h-30    lg:w-45 lg:h-45 rounded-full overflow-hidden border-5 border-background-color-2">
         <img
           className="w-full h-full object-cover"
-          src={Kill_la_Kill}
+          src={profile_image}
           alt="imagen"
         />
       </div>
