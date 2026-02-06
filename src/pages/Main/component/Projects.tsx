@@ -72,7 +72,7 @@ const originalCarouselData: CarouselItem[] = [
     date: "projects.lifePost.date",
     type: "projects.lifePost.type",
     pattern: "projects.lifePost.pattern",
-    techStack: "projects.lifePost.techStack",
+    techStack: "NodeJS; ExpressJS; Pug",
   },
   {
     title: "projects.ImageOptimizator.title",
@@ -85,7 +85,7 @@ const originalCarouselData: CarouselItem[] = [
     type: "projects.ImageOptimizator.type",
     link: "https://images-optimizator-1.onrender.com/",
     pattern: "projects.ImageOptimizator.pattern",
-    techStack: "projects.ImageOptimizator.techStack",
+    techStack: "NodeJS; ExpressJS; ejs",
   },
   {
     title: "projects.listUserApi.title",
@@ -98,7 +98,7 @@ const originalCarouselData: CarouselItem[] = [
     date: "projects.listUserApi.date",
     type: "projects.listUserApi.type",
     pattern: "projects.listUserApi.pattern",
-    techStack: "projects.listUserApi.techStack",
+    techStack: "NodeJS; ExpressJs; Typescript; ",
   },
   {
     title: "projects.listuser.title",
@@ -111,7 +111,7 @@ const originalCarouselData: CarouselItem[] = [
     date: "projects.listuser.date",
     type: "projects.listuser.type",
     pattern: "projects.listuser.pattern",
-    techStack: "projects.listuser.techStack",
+    techStack: "ReactJS; Typescript",
   },
 ];
 

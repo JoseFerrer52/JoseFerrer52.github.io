@@ -32,7 +32,7 @@ function Home() {
       </div>
       <div className="flex flex-col items-center justify-center gap-4 w-full">
         <h1 className="text-5xl font-bold text-center t-shadow">
-          {t('home.title')} I'm Jose Ferrer
+          {t('home.title')} Jose Ferrer
         </h1>
         
         <span 

@@ -10,6 +10,7 @@
   font-family: 'Montserrat', system-ui, Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 
@@ -22,7 +23,8 @@ html {
 
 body {
   margin: 0;
-   overflow-x: hidden;
+  overflow-x: hidden;
+   
    background-image: url("/background.png");
 background-size: cover;
 background-position: right 25% top;

@@ -16,7 +16,11 @@ const ExperienceSection: React.FC<Props> = ({ delay = 300 }) => {
   const { ref, inView } = useInView({
     // Opciones del Intersection Observer
     triggerOnce: true, // La animación solo se dispara una vez
-    threshold: 0.1, // Se activa cuando el 10% del elemento es visible
+    threshold: 0.01, // Se activa cuando el 10% del elemento es visible
+  });
+  const { ref: ref1, inView: inView1 } = useInView({
+    threshold: 0.01,
+    triggerOnce: true,
   });
   const { t } = useTranslation();
   return (
@@ -35,11 +39,11 @@ const ExperienceSection: React.FC<Props> = ({ delay = 300 }) => {
           {" "}
           <div className=" relative w-[3px] bg-[#00B4D8] h-full">
             <div
-              ref={ref}
-              className={`experience-card experience-card-left experience-card-left-item transition-all duration-700 ease-out ${
-                inView
+              ref={ref1}
+              className={`experience-card experience-card-left experience-card-left-item transition-all duration-700 ease-out ${   
+                inView1
                   ? "opacity-100 translate-x-0"
-                  : "opacity-0 translate-x-[100%] lg:translate-x-[-100%]"
+                  : "opacity-0 translate-x-[100%] lg:translate-x-[-100%]  "
               } `}
               style={{
                 transitionDelay: `${delay}ms`, // Aplica el retraso si se proporciona
@@ -69,10 +73,14 @@ const ExperienceSection: React.FC<Props> = ({ delay = 300 }) => {
               </div>
             </div>
 
-            <div className={`experience-card experience-card-right experience-card-right-item transition-all duration-700 ease-out ${
+            <div
+            ref={ref}
+            
+             className={`experience-card experience-card-right experience-card-right-item transition-all duration-700 ease-out ${
+                
                 inView
                   ? "opacity-100 translate-x-0"
-                  : "opacity-0 translate-x-100"
+                  : "opacity-0 translate-x-[100%]"
               } `}style={{
                 transitionDelay: `${delay}ms`, // Aplica el retraso si se proporciona
               }}>
@@ -80,7 +88,7 @@ const ExperienceSection: React.FC<Props> = ({ delay = 300 }) => {
                 <div className="flex items-center gap-2">
                   <img
                     src={id_for_ideas}
-                    alt="deevopp logo"
+                    alt="id for ideas logo"
                     className="h-7 w-7 object-contain rounded-[8px]"
                   />
                   <h3 className="experience-card-content-title">
