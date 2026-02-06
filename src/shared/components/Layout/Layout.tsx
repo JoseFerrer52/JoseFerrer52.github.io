@@ -117,7 +117,7 @@ function Layout() {
       </div>
 
       {/* 👇 NUEVO MENÚ MÓVIL CON BACKDROP Y TRANSICIÓN */}
-      <>
+      
         <div
           className={`lg:hidden fixed inset-0 bg-black transition-opacity duration-500 z-[990] ${
             isMenuOpen ? 'opacity-50' : 'opacity-0 pointer-events-none'
@@ -139,8 +139,7 @@ function Layout() {
               </li>
             ))}
           </ul>
-        </div>
-      </>
+        </div>      
     </header>
   );
 }

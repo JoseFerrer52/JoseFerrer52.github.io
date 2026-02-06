@@ -3,7 +3,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { useTranslation } from 'react-i18next';
 import cv_en from "../../../../public/cv/cv-jose-en.pdf";
 import cv_es from "../../../../public/cv/cv-jose-es.pdf";
-import profile_image from "../../../../public/jonmircha.jpg"
+import profile_image from "../../../../public/profile_image.jpeg"
 import "../../../App.css";
 
 
