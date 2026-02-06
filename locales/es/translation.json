@@ -2,17 +2,17 @@
     "layout":{
       "home": "Home",
       "about": "Acerca ",
-      "skill": "Habilidades",
+      "skills": "Habilidades",
       "resume": "Experiencia",
       "studies": "Estudios",
       "projects": "Proyectos",
       "socialMedia": "Redes"
   },
   "home": {
-    "title": "Hola!",
+    "title": "Hola! Soy",
     "subtitle": "Frontend Developer",
     "work": "Ver Mi Proyectos",
-    "cv": "Ver My CV"
+    "cv": "Ver Mi CV"
   },
   "about": {
     "title": "Acerca de mí",
@@ -77,7 +77,7 @@
       "type": "Aplicación Web Monolítica",
       "pattern": "MVC"
     },
-    "ListApi": {
+    "listUserApi": {
       "title": "List-api",
       "description": "listuser-api es una mini API creada para una prueba técnica. Proporciona gestión de usuarios como creación, listado, actualización y eliminación de usuarios.",
       "longDescription": "listuser proporciona una manera eficiente y sencilla de administrar y listar usuarios.",
